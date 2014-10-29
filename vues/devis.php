@@ -18,7 +18,7 @@
         <?php 
         foreach($datas as $data){?>
         <tr>
-          <td><b class="id_devis" data-id="<?php echo $data['id_devis']; ?>"><?php echo $data['id_devis']; ?></b></td>
+          <td><b class="id_devis" data-id="<?php echo $data['id_devis']; ?>"><?php echo $data['id_devis']; ?></b>&nbsp; <a href="devis/Devis_<?php echo $data['id_devis']; ?>.pdf"><span class="glyphicon glyphicon-floppy-save" style="vertical-align: middle;" data-original-title="" title=""></span></a></td>
           <td><?php echo $data['date']; ?></td>
           <td><?php if($data['statut'] == 1){echo "<span class='label label-success'>Enregistré</span>";}elseif ($data['statut'] == 2) {
             echo "<span class='label label-warning'>En attente</span>";
