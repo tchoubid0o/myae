@@ -1,5 +1,19 @@
-﻿.scrollable-menu {
-    height: auto;
-    max-height: 200px;
-    overflow-x: hidden;
+﻿body{
+	padding-top: 50px;
+
+}
+
+#starter{
+	background-color: #f2f2f2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.large_size{
+	font-size: 18px;
+}
+
+.id_devis{
+	cursor: pointer;
 }

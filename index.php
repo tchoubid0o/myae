@@ -2,7 +2,7 @@
 session_start();
 
 try {
-	$auth = new PDO('mysql:host=localhost;dbname=makebooks', 'root', '');
+	$auth = new PDO('mysql:host=localhost;dbname=myae', 'root', '');
 	//7Lsh78Jn
 }
 catch (Exception $e) {
