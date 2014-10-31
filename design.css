@@ -17,3 +17,8 @@
 .id_devis{
 	cursor: pointer;
 }
+
+#page-wrapper{
+	padding: 0 30px;
+	border-left: 1px solid #e7e7e7;
+}
